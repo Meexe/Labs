@@ -1,23 +1,3 @@
-    1  cd /etc/
-    2  ls -la
-    3  cd X11
-    4  ls -la
-    5  cat xorg.conf.d/
-    6  cd xorg.conf.d/
-    7  ls
-    8  cd ..
-    9  vim
-   10  vim xorg.conf
-   11  ls -la
-   12  cd
-   13  history
-   14  ls-l
-   15  ls -l
-   16  cat history_hard
-   17  history
-   18  clear
-   19  history
-   20  git
    21  whoami
    22  whoaim
    23  whoami
@@ -146,14 +126,3 @@
   146  sudo less /var/log/messages
   147  su
   148  history | less
-  149  cd
-  150  ls -l
-  151  rm history_hard
-  152  rm passwd passwd_link 
-  153  ls -l
-  154  rm -rf animals
-  155  ls -l
-  156  fit init labs
-  157  git init labs
-  158  cd labs
-  159  history > history.txt

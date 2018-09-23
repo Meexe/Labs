@@ -1,0 +1,45 @@
+  191  mkdir test
+  192  cd test
+  193  touch file
+  194  chmod 000 file
+  195  ls -l
+  196  echo test > file
+  197  cat file
+  198  ll
+  199  chmod 200
+  200  chmod 200 file
+  201  ll
+  202  echo test > file
+  203  cat file
+  204  chmod 240
+  205  chmod 240 file
+  206  ll
+  207  cat file
+  208  chmod 640 file
+  209  ll
+  210  cat file
+  211  cd
+  212  cd test
+  213  mkdir ew_file
+  214  rmdir ew_file/
+  215  ll
+  216  mkdir dir
+  217  cd dir
+  218  echo file 2 > new_file
+  219  ll
+  220  cd ..
+  221  ll
+  222  chmod 664 dir
+  223  ll
+  224  cat dir/new_file 
+  225  rm dir/new_file 
+  226  chown root file
+  227  chgrp root file
+  228  umask 600
+  229  umask 177
+  230  touch file1
+  231  ll
+  232  umask 111
+  233  touch file2
+  234  ll
+  235  cat file
