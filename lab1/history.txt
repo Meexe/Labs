@@ -117,8 +117,8 @@
   137  hostnmae -I
   138  hostname -I
   139  curl ifconfig.me
-  140  less < wget https://raw.githubusercontent.com/jlevy/the-art-of-command-line/master/README-ru.md
-  141  wget https://raw.githubusercontent.com/jlevy/the-art-of-command-line/master/README-ru.md | less
+  140  wget https://raw.githubusercontent.com/jlevy/the-art-of-command-line/master/README-ru.md
+  141  less README-ru.md
   142  id
   143  sudo is
   144  sudo id
