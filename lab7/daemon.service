@@ -1,0 +1,13 @@
+[Unit]
+Description=Telegram bot daemon
+
+[Service]
+User=bot
+Group=bot
+WorkingDirectory=/home/bot/tg_bot/
+ExecStart=/home/bot/tg_bot/venv/bin/python app/bot.py
+Environment=SIMPLE_SETTINGS=settings.settings
+
+[Install]
+WantedBy=multi-user.target
+
